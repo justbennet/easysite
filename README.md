@@ -83,17 +83,17 @@ with a single command.
 
 **General image processing libraries**
 
-libpng
-giflib
-libjpeg-turbo
-jbigkit
-tiff
-libwebp
-lcms2
-openjpeg
-jasper
-ImageMagick
-ffmpeg
+* libpng
+* giflib
+* libjpeg-turbo
+* jbigkit
+* tiff
+* libwebp
+* littlecms
+* openjpeg
+* jasper
+* ImageMagick
+* ffmpeg
 
 **Geospatial statistics**
 
