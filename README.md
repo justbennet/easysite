@@ -1,13 +1,13 @@
 # EasySite
 
-This site constitutes a tutorial for setting up a computing site using EasyBuild.
+This site constitutes a journal of setting up a computing site using EasyBuild.
 
-The basics of EasyBuild include installing software packages.  This tutorial
+The basics of EasyBuild include installing software packages.  This journal
 is for people who are setting up a computing _site_, which here means a computer
 or set of computers configured for multiple users and managed by a person or
 persons who are not typically themselves users of the software.
 
-This tutorial will, we hope, provide a supplement to the EasyBuild documentation
+This journal will, we hope, provide a supplement to the EasyBuild documentation
 that will enable a site administrator to
 
 * install EasyBuild
@@ -31,7 +31,7 @@ everything to their local disks, or it might be used on three compute
 each of which has its own shared NFS software installation but have nothing
 in common among them.
 
-The software that this tutorial uses as examples includes both serial and
+The software that this journal uses as examples includes both serial and
 parallel configurations, as we have many researchers who will never run
 software that depends on MPI and who may need to compile and test software
 only for single-node, multiprocessor applications.
