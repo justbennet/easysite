@@ -1,27 +1,34 @@
 # Setting up EasyBuild itself
 
+Count on several iterations of the configuration as you gain more
+experience with EasyBuild.  There is a _lot_ to learn.
+
 ## Considerations for a site
 
-What is the root of your EasyBuild installation?
+### Root of your EasyBuild installation
 
-Build location
+We picked `/sw/arcts`, and under that there is an `easybuild` directory
+in which we installed EasyBuild itself, and an `EasyBuilt` directory
+in which we put all the things EasyBuild builds for us (and our config
+file).
 
-Setting up building within jobs?
+### Build location
 
-Final installation location (NFS, CVMFS)
+We use `/tmp`, but we probably could use `/dev/shm/eb` as we have a
+machine with 180 GB memory.  However, it is a shared machine, and
+other people also use `/dev/shm` and still want to run programs.
 
-Account used to build
+### Setting up building within jobs
 
-Cache directory(ies)
+### Final installation location (NFS, CVMFS)
 
-Build node different from production (faster installation to local disk)
+### Account used to build
+
+### Cache directory(ies)
+
+### Build node different from production (faster installation to local disk)
 
 ## Eliminate some duplication of tool-only packages
-
-In particular M4, Bison, Flex, et al.  Should only need one of these per toolchain.
-Would it make sense to have a versioned build-tools that gets added as a layer
-below the current toolchain and on which everything else depends?  That would
-reduce the duplications induced by hard numbering of dependencies?
 
 ## Set up system tool chain
 
